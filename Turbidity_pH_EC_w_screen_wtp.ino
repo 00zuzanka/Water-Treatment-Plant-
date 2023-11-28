@@ -132,7 +132,7 @@
   // Drawing data to image
   Paint_DrawString_EN(10, 0, "El.Cond.", &Font16, WHITE, WHITE);
   Paint_DrawString_EN(10, 17, buffer, &Font24, WHITE, WHITE);
-  Paint_DrawString_EN(30, 40, "uSv/cm", &Font24, WHITE, WHITE);
+  Paint_DrawString_EN(35, 40, "uS/cm", &Font24, WHITE, WHITE);
 
   //  Show image to screen
   OLED_0in96_display(BlackImage);
